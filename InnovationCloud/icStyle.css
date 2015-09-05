@@ -20,7 +20,6 @@ body {
 	padding: 0 10px;
 }
 
-
 /* Header */
 .header {
   height: 800px;
@@ -70,9 +69,19 @@ body {
 	list-style: none;
 	margin: 0 auto;
 	padding: 30px 0;
-	text-align: center;
+
 }
 
+.nav .list li {
+  display: inline;
+  margin: 10px;
+  color: white;
+  padding 0 10px;
+}
+.nav {
+  background: black;
+  text-align: left;
+}
 
 /* Main */
 .main .container {
