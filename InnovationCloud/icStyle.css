@@ -7,7 +7,13 @@ body {
 	font-family: 'Roboto', sans-serif;
 	font-weight: 100;
 }
-
+.button {
+  border: 10px solid black;
+  border-top:5px;
+  border-bottom:5px;
+  background: #000;
+  color:#fff;
+}
 .container {
 	margin: 0 auto;
 	max-width: 940px;
@@ -19,11 +25,13 @@ body {
 .header {
   height: 800px;
   text-align: center;
+  background-image:url('https://s3.amazonaws.com/codecademy-content/projects/innovation-cloud/bg.jpg');
 }
 
 .header .container {
 	position: relative;
 	top: 200px;
+
 }
 
 .header h1 {
@@ -31,6 +39,8 @@ body {
 	line-height: 100px;
 	margin-top: 0;
 	margin-bottom: 80px;
+  text-transform: uppercase;
+  color: white;
 }
 
 @media (min-width:850px) {
@@ -44,6 +54,8 @@ body {
 	letter-spacing: 8px;
 	margin-bottom: 40px;
 	margin-top: 0;
+  text-transform: uppercase;
+  color: white;
 }
 
 .btn:hover {
