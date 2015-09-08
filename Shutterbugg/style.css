@@ -39,7 +39,13 @@ a {
     padding-bottom: 50px;
     border-bottom: 1px solid #dbdbdb;
 }
-
+.row h2 {
+    font-size: 50px;
+    font-weight: 200;
+}
+.row p {
+    font-size: 25px;
+}
 .store {
     text-align: center;
     border-bottom: 0px;
