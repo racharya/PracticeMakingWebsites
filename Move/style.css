@@ -111,7 +111,10 @@ p {
 
 /* Footer */
 .footer {
+    background: url('https://s3.amazonaws.com/codecademy-content/projects/move/footer.jpg') no-repeat center center;
+    background-size: cover;
     height: 600px;
+    text-align: center;
 }
 
 .footer h1,
@@ -120,6 +123,7 @@ p {
     font-size: 40px;
     margin: 0 0 20px 0;
     padding:50px 0 0;
+    
 }
 
 .footer p {
@@ -127,7 +131,10 @@ p {
     margin: 0 0 20px 0;
     font-size: 18px;
 }
-
+.footer .container {
+    position: relative;
+    top: 200px;
+}
 
 @media (min-width:600px) {
     .main h1 {
