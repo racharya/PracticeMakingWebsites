@@ -15,7 +15,7 @@ html, body {
 .nav-pills li a {
     color: #d8192f;
     margin: 5px;
-    border: 1px solid red;
+    border: 1px solid rgba(216,25,47,1);
 }
 
 .nav-pills li.active a,
@@ -30,8 +30,15 @@ html, body {
 /* Jumbotron */
 .jumbotron {
     height: 500px;
+    background: url('https://s3.amazonaws.com/codecademy-content/projects/bestbite/bg.jpg') no-repeat center center;
+    background-size: cover;
 }
-
+.jumbotron .row {
+    color: white;
+}
+.row h2 {
+    font-size: 60px;
+}
 
 /* Banner */
 .banner, .supporting {
