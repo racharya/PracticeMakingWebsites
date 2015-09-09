@@ -11,13 +11,21 @@ html, body {
 /* Header */
 .header {
     padding: 10px 0;
+    background-color: rgba(0,0,0,0.5);
+}
+.header li {
+    color: white;
+    display: inline;
+    list-style: none;
+    margin: 10px;
 }
 
 /* Jumbotron */
 .jumbotron {
-    position: relative;
+    position: block;
     top: 50px;
     text-shadow: 0 2px 3px rgba(0,0,0,.4);
+    background: url('https://s3.amazonaws.com/codecademy-content/projects/junction/bg.jpg') no-repeat center center;
 }
 
 /* Supporting */
