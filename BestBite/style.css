@@ -52,6 +52,13 @@ html, body {
     color: #fff;
 }
 
+.banner a {
+    color: white;
+    background-color: rgba(216,25,47,.5);
+    border: 0px;
+    margin-top: 20px;
+}
+
 /* Media Queries */
 @media (max-width: 680px) {
     .header h1 {
