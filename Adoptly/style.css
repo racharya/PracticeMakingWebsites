@@ -17,12 +17,26 @@ html, body {
 .nav {
     height: 50px;
     margin-top: 30px;
+    text-align: center;
 }
 .nav li {
     display: inline;
     margin: 30px;
     color: white;
     font-size: 20px;
+}
+
+/*jumbotron*/
+.jumbotron {
+    background: url('https://s3.amazonaws.com/codecademy-content/projects/adoptly/bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 800px;
+}
+.jumbotron h1 {
+    display: relative;
+    text-align: center;
+    color: #E52364;
+    font-weight: bold;
 }
 
 @media (max-width: 500px) {
