@@ -28,7 +28,7 @@ html, body {
 
 /*jumbotron*/
 .jumbotron {
-    background: url('https://s3.amazonaws.com/codecademy-content/projects/adoptly/bg.jpg') no-repeat center center fixed;
+    background: url('https://s3.amazonaws.com/codecademy-content/projects/adoptly/bg.jpg') no-repeat center center;
     background-size: cover;
     height: 800px;
 }
@@ -37,6 +37,21 @@ html, body {
     text-align: center;
     color: #E52364;
     font-weight: bold;
+}
+
+/*supporting */
+.row {
+    height: 80px;
+    margin-bottom: 20px;
+}
+.col-md-4 {
+    text-align: center;
+}
+.col-md-4 p {
+    font-weight: 10px;
+}
+.col-md-4 a {
+    border: 1px solid #30627E;
 }
 
 @media (max-width: 500px) {
