@@ -1,0 +1,33 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header {
+    background-color: #30627E;
+}
+
+.container {
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.nav {
+    height: 50px;
+    margin-top: 30px;
+}
+.nav li {
+    display: inline;
+    margin: 30px;
+    color: white;
+    font-size: 20px;
+}
+
+@media (max-width: 500px) {
+    ul li {
+        width: 100%;
+        
+    }
+}
