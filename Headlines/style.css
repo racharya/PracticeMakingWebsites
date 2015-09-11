@@ -76,6 +76,7 @@ img {
 address {
     color: white;
     font-size: 12px;
+    margin-bottom: 0;
 }
 .footer a {
     padding-top: none;
@@ -84,6 +85,7 @@ address {
     height: 20px;
     width: 20px;
     margin: 5px;
+    margin-bottom: 35px;
 }
 @media (max-width: 992px) {
     .col-md-4 {
