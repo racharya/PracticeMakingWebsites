@@ -8,13 +8,7 @@ html, body {
     max-width: 980px;
     margin: 0 auto;
 }
-.header {
-    
-}
 
-.nav-tabs {
-    
-}
 .nav-tabs>li>a  {
     color: black;
 }
@@ -23,11 +17,32 @@ html, body {
 .jumbotron {
     background-color: transparent;
     margin-top: 100px;
+    margin-bottom: 50px;
 }
+
 .jumbotron h1 {
     color: #333333;
     text-shadow: none;
     font-weight: 300px;
+    
+}
+
+/* banner */
+.banner {
+    color: white;
+    text-align: center;
+    background: #333333;
+}
+
+.banner h2 {
+    font-size: 36px;
+    margin-top: 20px;
+    padding-top: 10px;
+}
+
+.banner p {
+    margin-bottom: 15px;
+    padding-bottom: 10px;
 }
 
 @media (max-width: 992px) {
