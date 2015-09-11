@@ -8,9 +8,26 @@ html, body {
     max-width: 980px;
     margin: 0 auto;
 }
+.header {
+    
+}
 
+.nav-tabs {
+    
+}
+.nav-tabs>li>a  {
+    color: black;
+}
+
+/* jumbotron */
 .jumbotron {
     background-color: transparent;
+    margin-top: 100px;
+}
+.jumbotron h1 {
+    color: #333333;
+    text-shadow: none;
+    font-weight: 300px;
 }
 
 @media (max-width: 992px) {
