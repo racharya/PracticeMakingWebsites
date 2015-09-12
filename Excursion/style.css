@@ -12,10 +12,14 @@ html, body {
 
 .main {
     position: relative;
+    text-align: center;
 }
 
 .main video {
     width: 100%;
+}
+.main .overVideo {
+    color: white;
 }
 
 .main .content {
@@ -27,11 +31,21 @@ html, body {
     margin: 0 auto;
 }
 
-.main h1 {
+.content h1 {
+    color: white;
+    text-align: center;
     font-size: 50px;
     text-shadow: 0 2px 3px rgba(0,0,0,.4);
 }
 
+.button {
+    color: white;
+    background: #4386FC;
+    border: 1px;
+    margin: 10px;
+    padding: 15px;
+    text-align: center;
+}
 
 .supporting {
     margin-top: 100px;
