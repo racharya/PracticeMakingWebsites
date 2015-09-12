@@ -50,6 +50,7 @@ html, body {
 .supporting {
     margin-top: 100px;
     margin-bottom: 130px;
+    text-align: center;
 }
 
 .supporting h2 {
