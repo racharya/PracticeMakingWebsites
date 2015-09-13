@@ -21,6 +21,28 @@ body {
     width: 50px;
     height: 50px;
 }
+
+.main {
+    color: white;
+}
+
+.main h4 {
+    margin-top: 60px;
+    font-weight: bold;
+    font-size: 30px;
+}
+.formClass {
+    margin-top: 15px;
+    margin-bottom: 50px;
+    text-align: left;
+}
+
+.main .button {
+    color: white;
+    background: #205949;
+    padding: 8px;
+    margin-bottom: 80px;
+}
 .container {
     max-width: 940px;
 }
