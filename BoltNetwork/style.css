@@ -9,6 +9,42 @@ html, body {
     max-width: 970px;
 }
 
+/* main */
+.main {
+    background-color: #000000;
+    margin: 0;
+}
+
+.main img {
+    width: 150px;
+    height: 150px;
+    margin-right: 500px;
+}
+
+.main ul {
+    list-style: none;
+    display: inline;
+    
+}
+.main li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.login {
+    color: white;
+}
+.signup {
+    color:#0393FF;
+    border: 1px solid #0393FF;
+    padding: 10px;
+}
+a:hover{
+    color: white;
+    background-color:#0393FF;
+}
+
+
 .supporting {
     background-image: url(s3.amazonaws.com/codecademy-content/projects/bolt-network/diagmonds_@2X.png);
     background-size: 141px 142px;
