@@ -5,13 +5,16 @@ html, body {
 }
 
 body {
-    background: url('https://s3.amazonaws.com/codecademy-content/projects/pocketbook/bg.jpg') no-repeat center center;
+    background: url('https://s3.amazonaws.com/codecademy-content/projects/pocketbook/bg.jpg') no-repeat;
+    background-size: cover;
 }
 
 .header {
     text-align: center;
 }
-
+.container {
+    max-width: 940px;
+}
 .header .container {
     border-bottom: 1px solid white;
 }
@@ -43,6 +46,25 @@ body {
     padding: 8px;
     margin-bottom: 80px;
 }
-.container {
-    max-width: 940px;
+
+/*footer*/
+.footer {
+    margin-top: 80px;
+    color: white;
+}
+
+.footer .container {
+    border-top: 1px solid white;
+}
+
+.footer ul {
+    position: relative;
+    list-style: none;
+    padding-left: 0;
+    margin-top: 20px;
+}
+
+.footer li{
+    display: inline;
+    margin-right: 10px;
 }
