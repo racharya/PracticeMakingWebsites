@@ -4,46 +4,40 @@ html, body {
     margin: 0;
     padding: 0;
 }
+.jumbotron {
+    background-color: #000000;
+}
 
 .container {
     max-width: 970px;
 }
-
-/* main */
-.main {
-    background-color: #000000;
-    margin: 0;
+.header .col-md-6 {
+    vertical-align: middle;
 }
-
-.main img {
-    width: 150px;
-    height: 150px;
-    margin-right: 500px;
-}
-
-.main ul {
+.header ul {
+    text-align: center;
+    color: white;
     list-style: none;
     display: inline;
-    
 }
-.main li {
+.header li {
     display: inline;
-    margin-right: 10px;
+    margin-right: 25px;
 }
-
-.login {
+.jumbotron .btn {
+    color:#0393ff;
+    background: transparent;
+    border: 1px solid #0393ff;
+    border-radius: 2px;
+    padding: 8px 20px;
+}
+.main {
+    text-align: center;
+}
+.main h1 {
     color: white;
+    margin-bottom: 30px;
 }
-.signup {
-    color:#0393FF;
-    border: 1px solid #0393FF;
-    padding: 10px;
-}
-a:hover{
-    color: white;
-    background-color:#0393FF;
-}
-
 
 .supporting {
     background-image: url(s3.amazonaws.com/codecademy-content/projects/bolt-network/diagmonds_@2X.png);
