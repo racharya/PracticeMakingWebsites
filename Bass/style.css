@@ -96,3 +96,24 @@ a {
 }
 
 /* footer */
+
+.footer {
+  background-color: black;
+  color: white;
+}
+.footer .row {
+  padding: 60px;
+}
+.footer h4 {
+  text-transform: uppercase;
+}
+.footer ul {
+  list-style: none;
+  padding: 0;
+}
+.footer li {
+  margin-bottom: 5px;
+}
+.footer a {
+  color: #d3d3d3;
+}
