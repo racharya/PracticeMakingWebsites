@@ -58,3 +58,17 @@ a {
 .supporting-1 .row {
   padding: 80px;
 }
+.supporting-2 {
+  background-color: #000000;
+  color: white;
+}
+.supporting-2 .row {
+  padding: 80px;
+}
+.supporting-3 {
+  background-color: #161718;
+  color: white;
+}
+.supporting-3 .row {
+  padding: 80px;
+}
