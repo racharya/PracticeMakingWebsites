@@ -6,6 +6,7 @@ html, body {
   background: url('https://s3.amazonaws.com/codecademy-content/projects/bass/bg.jpg') no-repeat center center;
   background-size: cover;
   height: 900px;
+  margin-bottom: 0;
 }
 .header .row {
   display: block;
@@ -46,4 +47,14 @@ a {
 }
 .main p {
   font-size: 20px;
+}
+
+/*supporting 1*/
+
+.supporting-1 {
+  background-color: #161718;
+  color: white;
+}
+.supporting-1 .row {
+  padding: 80px;
 }
