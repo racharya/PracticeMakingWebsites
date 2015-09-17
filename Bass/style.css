@@ -13,14 +13,37 @@ html, body {
 .header img {
   height: 90px;
   width: 90px;
-  border: 0;
+  margin: 0;
   vertical-align: middle;
 }
 .header ul {
   list-style: none;
+  margin-top: 40px;
 }
 .header li {
-  margin-right: 30px;
+  margin-left: 13px;
+  display: inline;
+}
+a {
   color: white;
-  display:inline;
+}
+.btn {
+  color: white;
+  background-color: #FF003D;
+  border: 1px solid #FF003D;
+  border-radius: 1px;
+}
+.btn:hover {
+  color: black;
+  background-color: #FF003D;
+  border-color: #FF003D;
+}
+.main {
+  color: white;
+}
+.main h1 {
+  padding-top: 60px;
+}
+.main p {
+  font-size: 20px;
 }
