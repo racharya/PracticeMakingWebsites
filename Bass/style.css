@@ -1,0 +1,26 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+.jumbotron {
+  background: url('https://s3.amazonaws.com/codecademy-content/projects/bass/bg.jpg') no-repeat center center;
+  background-size: cover;
+  height: 900px;
+}
+.header .row {
+  display: block;
+}
+.header img {
+  height: 90px;
+  width: 90px;
+  border: 0;
+  vertical-align: middle;
+}
+.header ul {
+  list-style: none;
+}
+.header li {
+  margin-right: 30px;
+  color: white;
+  display:inline;
+}
