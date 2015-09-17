@@ -3,20 +3,18 @@ html, body {
   padding: 0;
 }
 .header {
-  background-color:#333333;
-
+  background-color: #333333;
 }
-
 .nav li {
   display: inline;
 }
 .btn-main {
-  margin:150px;
+  margin: 150px;
 }
 .col .bLearn {
-  background-color:#fff;
+  background-color: #fff;
   border: 1px solid #000;
-  border-color:#333333;
+  border-color: #333333;
   padding: 10px;
 }
 .container {
@@ -24,18 +22,15 @@ html, body {
   margin: 0 auto;
   padding: 0 10px;
 }
-
 .jumbotron {
-  background-image:url('http://s3.amazonaws.com/codecademy-content/projects/broadway/bg.jpg');
+  background-image: url('http://s3.amazonaws.com/codecademy-content/projects/broadway/bg.jpg');
   height: 800px;
-  background-size:cover;
+  background-size: cover;
 }
-
 .nav {
   margin: 0;
   padding: 20px 0;
 }
-
 .nav li {
   color: #fff;
   font-family: 'Raleway', sans-serif;
@@ -43,13 +38,11 @@ html, body {
   font-size: 12px;
   margin: 10px;
 }
-
 .main {
   position: relative;
   top: 180px;
   text-align: center;
 }
-
 .main h1 {
   color: #333;
   font-family: 'Raleway', sans-serif;
@@ -59,7 +52,6 @@ html, body {
   margin-bottom: 80px;
   text-transform: uppercase;
 }
-
 .btn-main {
   background-color: #333;
   color: #fff;
@@ -71,29 +63,24 @@ html, body {
   text-decoration: none;
   text-transform: uppercase;
 }
-
 .supporting {
   padding-top: 80px;
   padding-bottom: 100px;
 }
-
 .supporting .col {
   float: left;
   width: 33%;
   font-family: 'Raleway', sans-serif;
   text-align: center;
 }
-
 .supporting img {
   height: 32px;
 }
-
 .supporting h2 {
   font-weight: 600;
   font-size: 23px;
   text-transform: uppercase;
 }
-
 .supporting p {
   font-weight: 400;
   font-size: 14px;
@@ -101,29 +88,24 @@ html, body {
   padding: 0 50px;
   margin-bottom: 40px;
 }
-
 .clearfix {
   clear: both;
 }
-
 .footer {
   background-color: #333;
   color: #fff;
   padding: 30px 0;
 }
-
 .footer p {
   font-family: 'Raleway', sans-serif;
   text-transform: uppercase;
   font-size: 11px;
 }
-
 @media (max-width: 500px) {
   .main h1 {
     font-size: 50px;
     padding: 0 40px;
   }
-
   .supporting .col {
     width: 100%;
   }

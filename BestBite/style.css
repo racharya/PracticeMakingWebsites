@@ -1,112 +1,106 @@
 html, body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Arvo', serif;
-    font-size: 16px;
+  margin: 0;
+  padding: 0;
+  font-family: 'Arvo', serif;
+  font-size: 16px;
 }
 .header {
-    padding: 40px;
+  padding: 40px;
 }
 .header h1 {
-    margin: 0;
-    padding: 0;
-    font-size: 36px;
+  margin: 0;
+  padding: 0;
+  font-size: 36px;
 }
 .container {
-    max-width: 940px;
-    margin: 0 auto;
+  max-width: 940px;
+  margin: 0 auto;
 }
-
 
 /* Header */
+
 .nav-pills li a {
-    float: right;
-    color: #d8192f;
-    margin: 5px;
-    border: 1px solid rgba(216,25,47,1);
+  float: right;
+  color: #d8192f;
+  margin: 5px;
+  border: 1px solid rgba(216, 25, 47, 1);
 }
-
-.nav-pills li.active a,
-.nav-pills li a:hover,
-.section .btn:hover {
-    background-color:rgba(216,25,47,1);
-    box-shadow:0 2px 4px rgba(0,0,0,.5);
-    color:#fff;
+.nav-pills li.active a, .nav-pills li a:hover, .section .btn:hover {
+  background-color: rgba(216, 25, 47, 1);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, .5);
+  color: #fff;
 }
-
 .nav {
-    float: right;
-    width: 340px;
-    list-style: none;
+  float: right;
+  width: 340px;
+  list-style: none;
 }
-
 
 /* Jumbotron */
+
 .jumbotron {
-    height: 500px;
-    background: url('https://s3.amazonaws.com/codecademy-content/projects/bestbite/bg.jpg') no-repeat center center;
-    background-size: cover;
+  height: 500px;
+  background: url('https://s3.amazonaws.com/codecademy-content/projects/bestbite/bg.jpg') no-repeat center center;
+  background-size: cover;
 }
 .jumbotron .row {
-    color: white;
+  color: white;
 }
 .row h2 {
-    font-size: 60px;
+  font-size: 60px;
 }
 
 /* Banner */
+
 .banner, .supporting {
-    text-align: center;
-    padding-top: 40px;
+  text-align: center;
+  padding-top: 40px;
 }
-
 .banner {
-    background-color:#36343f;
-    height:180px;
-    color: #fff;
+  background-color: #36343f;
+  height: 180px;
+  color: #fff;
 }
-
 .banner a {
-    color: white;
-    background-color: rgba(216,25,47,.5);
-    border: 0px;
-    margin-top: 20px;
+  color: white;
+  background-color: rgba(216, 25, 47, .5);
+  border: 0px;
+  margin-top: 20px;
 }
 .row h3 {
-    color: rgba(216,25,47,1);
-    text-align: center;
+  color: rgba(216, 25, 47, 1);
+  text-align: center;
 }
-
-.page-header h3, .row li{
-    text-align: center;
-    list-style-type: none;
+.page-header h3, .row li {
+  text-align: center;
+  list-style-type: none;
 }
 .footer {
-    height: 100px;
-    background: #eeeeee;
-    margin-top: 80px;
-    text-align: center;
-    padding: 40px 0px 100px;
+  height: 100px;
+  background: #eeeeee;
+  margin-top: 80px;
+  text-align: center;
+  padding: 40px 0px 100px;
 }
 .footer a {
-    color: #d8192f;
+  color: #d8192f;
 }
 
 /* Media Queries */
+
 @media (max-width: 680px) {
-    .header h1 {
-        margin-bottom: 20px;
-        text-align: center;
-    }
-    .nav {
-        float: none;
-        margin: 0 auto;
-    }
-    .banner {
-        height: 220px;
-    }
-    
-    .nav-pills li:first-child a  {
-        margin-left: 0;
-    }
+  .header h1 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .nav {
+    float: none;
+    margin: 0 auto;
+  }
+  .banner {
+    height: 220px;
+  }
+  .nav-pills li:first-child a {
+    margin-left: 0;
+  }
 }

@@ -1,114 +1,109 @@
 html, body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Libre Baskerville', sans-serif;
+  margin: 0;
+  padding: 0;
+  font-family: 'Libre Baskerville', sans-serif;
 }
-
 .container {
-    max-width: 980px;
-    margin: 0 auto;
+  max-width: 980px;
+  margin: 0 auto;
 }
 .col-md-2 h4 {
-    text-align: center;
-    padding: 20px;
+  text-align: center;
+  padding: 20px;
 }
-.nav-tabs>li>a  {
-    color: black;
+.nav-tabs>li>a {
+  color: black;
 }
 
 /* jumbotron */
-.jumbotron {
-    background-color: transparent;
-    margin-top: 100px;
-    margin-bottom: 50px;
-}
 
+.jumbotron {
+  background-color: transparent;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
 .jumbotron h1 {
-    color: #333333;
-    text-shadow: none;
-    font-weight: 300px;
-    
+  color: #333333;
+  text-shadow: none;
+  font-weight: 300px;
 }
 
 /* banner */
+
 .banner {
-    color: white;
-    text-align: center;
-    background: #333333;
+  color: white;
+  text-align: center;
+  background: #333333;
 }
-
 .banner h2 {
-    font-size: 36px;
-    margin-top: 20px;
-    padding-top: 10px;
+  font-size: 36px;
+  margin-top: 20px;
+  padding-top: 10px;
 }
-
 .banner p {
-    margin-bottom: 15px;
-    padding-bottom: 10px;
+  margin-bottom: 15px;
+  padding-bottom: 10px;
 }
 
 /* cards */
+
 .cards {
-    background: #FFC200;
-    padding-bottom: 80px;
+  background: #FFC200;
+  padding-bottom: 80px;
 }
 .cards h3 {
-    font-size: 28px;
-    text-align: center;
-    padding: 40px;
+  font-size: 28px;
+  text-align: center;
+  padding: 40px;
 }
-
 img {
-    vertical-align: middle;
-    margin-top: 25px;
+  vertical-align: middle;
+  margin-top: 25px;
 }
 
 /*footer*/
+
 .footer {
-    background: #000000;
+  background: #000000;
 }
 .footer h5 {
-    color: white;
-    font-size: 18px;
-    padding-top: 20px;
+  color: white;
+  font-size: 18px;
+  padding-top: 20px;
 }
 address {
-    color: white;
-    font-size: 12px;
-    margin-bottom: 0;
+  color: white;
+  font-size: 12px;
+  margin-bottom: 0;
 }
 .footer a {
-    padding-top: none;
+  padding-top: none;
 }
 .footer img {
-    height: 20px;
-    width: 20px;
-    margin: 5px;
-    margin-bottom: 35px;
+  height: 20px;
+  width: 20px;
+  margin: 5px;
+  margin-bottom: 35px;
 }
 @media (max-width: 992px) {
-    .col-md-4 {
-        margin: 0 auto 0;
-        text-align: center;
-        width: 100%;
-    }
-    .cards img {
-        width: 60%;
-    }
+  .col-md-4 {
+    margin: 0 auto 0;
+    text-align: center;
+    width: 100%;
+  }
+  .cards img {
+    width: 60%;
+  }
 }
-
 @media (max-width: 500px) {
-    .header h1 {
-        text-align: center;
-    }
-    
-    .nav li {
-        text-align: center;
-        width: 100%;
-    }
-    
-    .cards img {
-        width: 100%;
-    }
+  .header h1 {
+    text-align: center;
+  }
+  .nav li {
+    text-align: center;
+    width: 100%;
+  }
+  .cards img {
+    width: 100%;
+  }
 }

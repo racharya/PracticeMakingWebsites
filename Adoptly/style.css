@@ -1,89 +1,87 @@
 html, body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
 }
-
 .header {
-    background-color: #30627E;
+  background-color: #30627E;
 }
-
 .container {
-    max-width: 940px;
-    margin: 0 auto;
-    padding: 0;
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0;
 }
 .header ul {
-    list-style: none;
-    text-align: center;
-    margin: 0;
-    padding: 0;
+  list-style: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
 }
 .header .main {
-    background-color: #e52364;
-    font-size: 28px;
+  background-color: #e52364;
+  font-size: 28px;
 }
 .header li {
-    display: inline-block;
-    margin: 0;
-    color: white;
-    font-size: 20px;
-    padding: 20px 30px;
+  display: inline-block;
+  margin: 0;
+  color: white;
+  font-size: 20px;
+  padding: 20px 30px;
 }
 
 /*jumbotron*/
+
 .jumbotron {
-    background: url('https://s3.amazonaws.com/codecademy-content/projects/adoptly/bg.jpg') no-repeat center center;
-    background-size: cover;
-    height: 800px;
+  background: url('https://s3.amazonaws.com/codecademy-content/projects/adoptly/bg.jpg') no-repeat center center;
+  background-size: cover;
+  height: 800px;
 }
 .jumbotron h1 {
-    display: relative;
-    text-align: center;
-    color: #E52364;
-    font-weight: bold;
+  display: relative;
+  text-align: center;
+  color: #E52364;
+  font-weight: bold;
 }
 
 /*supporting */
-.supporting {
-    padding: 10px 30px 80px;
-}
 
+.supporting {
+  padding: 10px 30px 80px;
+}
 .col-md-4 {
-    text-align: center;
+  text-align: center;
 }
 .col-md-4 p {
-    font-weight: 10px;
+  font-weight: 10px;
 }
 .btn {
-    border: 1px solid #30627E;
-    padding-left: 50px;
-    padding-right: 50px;
+  border: 1px solid #30627E;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 /*footer */
+
 .footer {
-    padding: 20px;
-    background: #e52364;
-    color: white;
+  padding: 20px;
+  background: #e52364;
+  color: white;
 }
 .col-md-2 .c {
-    text-align: left;
-    padding-top: 10px;
+  text-align: left;
+  padding-top: 10px;
 }
 .nav {
-    padding-left: 0;
-    margin-bottom: 0;
-    list-style: none;
-    color: white;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+  color: white;
 }
 .nav li a {
-    color: white;
+  color: white;
 }
-
 @media (max-width: 500px) {
-    ul li {
-        width: 100%;
-        
-    }
+  ul li {
+    width: 100%;
+  }
 }
