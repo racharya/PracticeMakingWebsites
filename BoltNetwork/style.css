@@ -32,6 +32,7 @@ html, body {
     padding: 8px 20px;
 }
 .main {
+    margin-top: 80px;
     text-align: center;
 }
 .main h1 {
@@ -39,7 +40,26 @@ html, body {
     margin-bottom: 30px;
 }
 
+.form-inline .form-group {
+    margin:0;
+}
+
+#search {
+    background: tansparent;
+    border: 0;
+    border-radius: 0;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+    margin: 0 20px;
+    width: 400px;
+}
+
+
 .supporting {
-    background-image: url(s3.amazonaws.com/codecademy-content/projects/bolt-network/diagmonds_@2X.png);
-    background-size: 141px 142px;
+    background: url(https://s3.amazonaws.com/codecademy-content/projects/bolt-network/diagmonds_@2X.png)  center center;
+    background-size: cover;
+}
+
+.row img {
+    margin: 20px;
 }
