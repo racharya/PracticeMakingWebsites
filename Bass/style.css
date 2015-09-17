@@ -49,7 +49,7 @@ a {
   font-size: 20px;
 }
 
-/*supporting 1*/
+/* supporting-1 */
 
 .supporting-1 {
   background-color: #161718;
@@ -58,6 +58,9 @@ a {
 .supporting-1 .row {
   padding: 80px;
 }
+
+/* supporting-2 */
+
 .supporting-2 {
   background-color: #000000;
   color: white;
@@ -65,6 +68,9 @@ a {
 .supporting-2 .row {
   padding: 80px;
 }
+
+/* supporting-3 */
+
 .supporting-3 {
   background-color: #161718;
   color: white;
@@ -72,3 +78,21 @@ a {
 .supporting-3 .row {
   padding: 80px;
 }
+
+/* feature */
+
+.feature {
+  color: white;
+  background: url('https://s3.amazonaws.com/codecademy-content/projects/bass/feature.jpg') no-repeat center center;
+  background-size: cover;
+  height: 400px;
+  text-align: center;
+}
+.feature h3 {
+  margin-top: 120px;
+}
+.feature img {
+  vertical-align: middle;
+}
+
+/* footer */
