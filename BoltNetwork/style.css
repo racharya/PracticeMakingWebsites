@@ -58,8 +58,27 @@ html, body {
 .supporting {
     background: url(https://s3.amazonaws.com/codecademy-content/projects/bolt-network/diagmonds_@2X.png)  center center;
     background-size: cover;
+    text-align: center;
 }
 
 .row img {
     margin: 20px;
+}
+
+.supporting h3 {
+    color:#0393ff;
+    font-size: 28px;
+}
+.supporting p {
+    color: white;
+}
+.feature {
+    background: url('https://s3.amazonaws.com/codecademy-content/projects/bolt-network/feature.jpg') center;
+    text-align: center;
+}
+.feature h3 {
+    color:#0393ff;
+}
+.feature p {
+    color: white;
 }
