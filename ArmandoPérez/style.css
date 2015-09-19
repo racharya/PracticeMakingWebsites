@@ -1,0 +1,8 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: url('https://s3.amazonaws.com/codecademy-content/projects/armando-perez/brand.jpg') no-repeat center center;
+  background-size: cover;
+}
