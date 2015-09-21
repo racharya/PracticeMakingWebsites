@@ -3,5 +3,28 @@ html, body {
   padding: 0;
 }
 body {
-  background: url('https://s3.amazonaws.com/codecademy-content/projects/armando-perez/brand.jpg') no-repeat center center;
+  background: url('https://s3.amazonaws.com/codecademy-content/projects/armando-perez/brand.jpg') no-repeat;
+}
+
+/* header */
+
+.header {
+  padding: 30px 0;
+}
+.header h1 {
+  text-transform: uppercase;
+  color: white;
+  font-size: 30px;
+}
+.nav-pills {
+  padding: 20px;
+}
+.header li.active a {
+  text-align: center;
+  width: 100px;
+  background: #F01251;
+  color: white;
+}
+.nav-pills a {
+  color: #F01251;
 }
