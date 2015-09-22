@@ -116,3 +116,26 @@ h4 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
 }
+
+/*footer*/
+
+.footer {
+  background: black;
+  padding: 40px 0;
+}
+.footer ul {
+  list-style: none;
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+.footer ul li {
+  color: white;
+  display: inline;
+  margin: 0 40px 0 0;
+}
+.footer p {
+  color: #e2e2e2;
+  float: right;
+  margin: 0 0 10px;
+}
