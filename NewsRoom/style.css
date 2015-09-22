@@ -2,3 +2,59 @@ html, body {
   margin: 0;
   padding: 0;
 }
+
+/* header */
+
+.header {
+  background: black;
+  height: 100px;
+}
+.header .row {
+  padding: 15px;
+}
+.header img {
+  width: 200px;
+}
+.form-inline .form-group {
+  margin: 0;
+}
+.btn {
+  color: white;
+  background: transparent;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid #0393ff;
+  border-radius: 2px;
+}
+#search {
+  background: transparent;
+  border-radius: 0;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid #fff;
+  color: #fff;
+  width: 200px;
+}
+
+/* menu */
+
+.menu {
+  background: #152230;
+  height: 40px;
+}
+.menu ul.nav {
+  list-style: none;
+}
+.menu ul.nav li {
+  display: inline-block;
+  text-align: center;
+  color: white;
+}
+.menu ul.nav a:hover, .menu ul.nav li.active {
+  background: #1a77ff;
+}
+.menu ul.nav li a {
+  color: white;
+}
